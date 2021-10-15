@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+
+body{
+	padding: 0;
+	margin: 0;
+}
+/*contact bar*/
+#contact-bar{
+	background-color: #F4702E;
+}
+#contact-bar div span a{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*menu bar coding*/
+nav.row{
+	background-color: rgba(255,255,255,0.7);
+}
+#menu-bar-desktop #menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu-bar-desktop #menu li{
+	display: inline-block;
+	margin: 0 13px;
+}
+#menu-bar-desktop #menu li a{
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+}
+
+#submenu{
+	width: 60%;
+	position: absolute;
+	left: 23%;
+	top: 45px;
+}
+#submenu #submenu-digital-marketing-service{
+	padding: 20px 10px;
+	margin: 0;
+	float: left;
+}
+#submenu #submenu-creative-services{
+	padding: 20px 10px;
+	margin: 0;
+	float: right;
+}
+#submenu ul{
+	border-top: 3px solid #2EA3F2;
+	list-style: none;
+	background-color: rgba(255,255,255,0.7);
+}
+#submenu ul li{
+	padding: 5px 0px;
+}
+#submenu ul li:hover a{
+	color: #5d5f60;
+}
+#submenu ul li a{
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+}
+/*mobile menu*/
+
+#menu-bar-mobile div p{
+	padding: 0;
+	margin: 0;
+}
+#menu-bar-mobile div i{
+	font-size: 23px;
+}
+#menu-bar-mobile{
+	display: none;
+}
+#menu-bar-mobile #mobile-menu {
+	width: 80%;
+	position: absolute;
+	left: 40px;
+}
+#menu-bar-mobile #mobile-menu ul{
+	border-top: 3px solid #2EA3F2;
+	list-style: none;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 16px;
+}
+#menu-bar-mobile #mobile-menu ul li{
+	padding: 5px 0px;
+}
+#menu-bar-mobile #mobile-menu ul li a{
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+}
+@media(max-width: 768px)
+{
+	#menu-bar-desktop{
+		display: none;
+	}
+	#menu-bar-mobile{
+		display: block;
+	}
+}
+
+/*section */
+
+#lapaas-info h1{
+	color: #E02B20;
+	font-size: 80px;
+	padding: 0;
+	margin: 0;
+}
+#lapaas-info h2{
+	color: #0C71C3;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+}
+#lapaas-info p{
+	margin-top: 15px;
+}
+#course-info{
+	margin-top: -130px;
+}
+#course-info h1{
+	color: #A30E0E;
+	font-size: 57px;
+	font-weight: 700;
+}
+#course-info h2{
+	color: #333333;
+	font-size: 27px;
+	font-weight: 700;
+}
+
+@media(max-width: 768px)
+{
+	#lapaas-info h1{
+		color: #E02B20;
+		font-size: 50px;
+	}
+	#lapaas-info h2{
+		color: #0C71C3;
+		font-size: 25px;
+	}
+	#course-info{
+		margin-top: -50px;
+	}
+	#course-info h1{
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+}
+
+/*our modules*/
+#our-modules h1{
+	color: #0C71C3;
+}
+#our-modules hr{
+	background-color: #09E1C0;width: 16%;height:4px;float: left;
+}
+#our-modules p{
+	text-align: justify;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	line-height: 35px;
+}
+#learning-course{
+	box-shadow: 0px 0px 20px grey;
+}
+#learning-course #learning-course-left,#learning-course #learning-course-right{
+	width: 50%;
+	float: left;
+}
+#learning-course .learning-course-heading{
+	display: flex;
+	align-items: center;
+}
+#learning-course .learning-course-heading img{
+	width: 30%;
+}
+#learning-course .learning-course-heading h5{
+	padding: 0;
+	margin: 0;
+}
+
+#learning-course .learning-course-description p{
+	word-spacing: 5px;
+	line-height: 30px;
+	text-align: justify;
+}
+@media(max-width: 768px)
+{
+	#learning-course #learning-course-left,#learning-course #learning-course-right{
+		width: 100%;
+		clear: left;
+	}
+	#learning-course .learning-course-description p{
+		word-spacing: 2px;
+		line-height: 25px;
+		margin-top: 15px;
+	}
+}
+
+/*book for web designing*/
+#book-web-designing{
+	padding: 100px 0px;
+	background-color: black;
+	overflow: hidden;
+}
+#book-web-designing p:nth-child(1){
+	word-spacing: 10px;
+	line-height: 30px;
+	font-size: 18px;
+}
+#book-web-designing p:nth-child(2){
+	word-spacing: 10px;
+	font-weight: 600;
+}
+#book-web-designing button{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+/* Digital Marketing Guides */
+#digital-marketing-guides h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #A81515;
+}
+#digital-marketing-guides .col-md-3{
+	float: left;
+}
+#digital-marketing-guides span{
+	font-size: 18px;
+}
+#digital-marketing-guides p{
+	padding: 0;
+	margin: 0;
+	word-spacing: 3px;
+	line-height: 30px;
+	text-align: justify;
+}
+@media(max-width: 768px)
+{
+	#digital-marketing-guides h1{
+		font-size: 37px;
+	}
+}
+
+/*digital marketing service*/
+#d-m-service h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+}
+#d-m-service p{
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+}
+#lapaas-services{
+	margin-top: -60px;
+	border-radius: 25px;
+	border-top: 20px solid #911414;
+	border-bottom: 20px solid #911414;
+}
+#lapaas-services h1{
+	font-weight: 700;
+}
+#lapaas-services .lapaas-services-col{
+	width: 33.33%;
+	float: left;
+}
+
+@media(max-width: 768px)
+{
+	#lapaas-services .lapaas-services-col{
+		width: 100%;
+	}
+}
+
+#lapaas-services div h6{
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 30px;
+}
+#lapaas-services div p{
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #898F99;
+}
+
+#contact-form input{
+	margin-top: 60px;
+	height: 60px;
+	padding: 10px 20px;
+}
+
+#contact-form textarea{
+	margin-top: 60px;
+	height: 250px;
+	padding: 10px 20px;
+}
+
+#contact-form button{
+	background-color: #FFA53B;
+	font-weight: bold;
+	color: white;
+}
+
+@media(max-width: 768px)
+{
+	#contact-form input{
+		margin-top: 20px;
+		height: 50px;
+		padding: 10px 20px;
+	}
+	#contact-form textarea{
+		margin-top: 20px;
+		height: 150px;
+		padding: 10px 20px;
+	}
+}
